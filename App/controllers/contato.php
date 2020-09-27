@@ -7,9 +7,9 @@ class Contato
         echo "index do contato";
     }
 
-    public function email()
+    public function email($nome = '', $email = '', $cpf = '')
     {
-        echo "bernardo@gmail.com";
+        echo $nome."<br>".$email."<br>".$cpf;
     }
 
     public function telefone()
